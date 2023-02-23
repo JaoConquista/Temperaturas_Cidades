@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Ubuntu",sans-serif;
+}
+
+body{
+    height: 100vh;
+    background: linear-gradient(180deg, #6e64e4 0%, #8dd0f5 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hide{
+    display: none;
+}
+
+.container{
+    background: #5c54ed;
+    box-shadow: rgba(0,0,0,0.24) 0px 3px 8px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form h2{
+    margin: 0.8rem;
+}
+
+.form{
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.form-input-container{
+    flex: 1;
+    padding: 0.8rem;
+    border-radius: 4px;
+}
+
+.form-input-container input{
+    width: 15rem;
+    height: 2.5rem;
+    border: none;
+    border-radius: 3px;
+}
+
+.form-input-container button{
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 3px;
+    background-color: #8dd0f5;
+    color: #fff;
+    border: none;
+}
+
+#weather{
+    text-align: center;
+    padding: 10px;
+    margin: 0 auto;
+    border-top: 1px solid #fff;
+}
+
+#location{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#location span{
+    font-weight: bold;
+    color: azure;
+    font-size: 22px;
+    padding-right: 15px;
+}
+
+#location i{
+    color: azure;
+    font-size: 15px;
+    padding-right: 15px;
+}
+
+#location img{
+    width: 50px;
+    border-radius: 4px;
+}
+
+#temperature{
+    font-weight: bold;
+    color: azure;
+    margin-top: 15px;
+
+}
+
+#temp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: azure;
+}
+
+#temp span{
+    text-transform: capitalize;
+}
+
+#description{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: azure;
+    font-weight: bold;
+}
+
+#humidity{
+    padding-right: 9px;
+    border-right: 2px solid #ccc;
+}
+
+#description i{
+    margin: 8px ;
+}
